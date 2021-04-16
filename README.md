@@ -29,7 +29,7 @@ Figure 2: system registration
 ### 3) Home Screen
 
 <br />
-<img src="https://i.ibb.co/MfBT19q/DS-6.png" alt="DS-6" border="0">
+<img src="https://i.ibb.co/NV2xqtT/DS-100.png" alt="DS-100" border="0">
 Figure 3: home screen
 <p></p><br />
 
@@ -91,7 +91,7 @@ Create a new Twilio Account using above email address and take the Phone Number,
 After that follows the instructions mentioned in the **How To deploy.txt** file. 
 
 
-#### Developed by Ranmal Dewage;
+#### Developed by RANMAL DEWAGE;
 
 ## Copyright
 
