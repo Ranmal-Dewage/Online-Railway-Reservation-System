@@ -89,7 +89,6 @@ Create a new Twilio Account using above email address and take the Phone Number,
 #### iii) How to Delpoy
 
 After that follows the instructions mentioned in the **How To deploy.txt** file. 
-
 <br>
 
 #### Developed by RANMAL DEWAGE;
