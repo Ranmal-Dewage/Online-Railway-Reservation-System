@@ -1,0 +1,3 @@
+db.governmentofficers.insert({firstName:"Ranmal", lastName:"Dewage", nic:"962842830V"})
+db.governmentofficers.insert({firstName:"Tenusha", lastName:"Guruge", nic:"952003001V"})
+db.governmentofficers.insert({firstName:"Vimukthi", lastName:"Rajapaksha", nic:"955006002V"})

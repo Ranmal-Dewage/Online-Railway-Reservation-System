@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/users" name="Users" xmlns="http://ws.apache.org/ns/synapse">
+    <resource methods="OPTIONS POST PUT GET" protocol="http" uri-template="/{method}">
+        <inSequence>
+            <property action="remove" name="REST_URL_POSTFIX" scope="axis2"/>
+            <log description="Users Log"/>
+            <switch source="get-property('uri.var.method')">
+                <case regex="login">
+                    <send>
+                        <endpoint key="LoginEndpoint"/>
+                    </send>
+                </case>
+                <case regex="register">
+                    <send>
+                        <endpoint key="ResgisterEndpoint"/>
+                    </send>
+                </case>
+                <case regex="mobilePayment">
+                    <send>
+                        <endpoint key="MobilePaymentEndpoint"/>
+                    </send>
+                </case>
+                <case regex="cardPayment">
+                    <send>
+                        <endpoint key="CardPaymentEndpoint"/>
+                    </send>
+                </case>
+                <case regex="governmentOfficers">
+                    <send>
+                        <endpoint key="GovernmentOfficersEndpoint"/>
+                    </send>
+                </case>
+                <default/>
+            </switch>
+        </inSequence>
+        <outSequence>
+            <respond description="Respond to Users"/>
+        </outSequence>
+        <faultSequence/>
+    </resource>
+</api>

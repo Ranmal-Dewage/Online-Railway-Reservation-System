@@ -1,0 +1,476 @@
+db.trains.insert({
+        "name" : "Green Express Train",
+        "day" : "Weekday",
+        "imgUrl" : "https://i.ibb.co/PDhPKcB/train1.jpg",
+        "departure" : {
+                "name" : "Colombo-Fort",
+                "time" : "4.30 pm"
+        },
+        "arrival" : {
+                "name" : "Kandy",
+                "time" : "7.15 pm"
+        },
+        "destination" : [
+                {
+                        "name" : "Colombo-Fort(4.30 pm)",
+                        "price" : 0
+                },
+                {
+                        "name" : "Maradana(4.35 pm)",
+                        "price" : 20
+                },
+                {
+                        "name" : "Dematagoda(4.40 pm)",
+                        "price" : 40
+                },
+                {
+                        "name" : "Raagama(4.55 pm)",
+                        "price" : 60
+                },
+                {
+                        "name" : "Gampaha(5.05 pm)",
+                        "price" : 80
+                },
+                {
+                        "name" : "Mirigama(5.20 pm)",
+                        "price" : 100
+                },
+                {
+                        "name" : "Polgahawela(5.40 pm)",
+                        "price" : 140
+                },
+                {
+                        "name" : "Rambukkana(6.05 pm)",
+                        "price" : 160
+                },
+                {
+                        "name" : "Kadugannawa(6.35 pm)",
+                        "price" : 200
+                },
+                {
+                        "name" : "Peradeniya(6.55 pm)",
+                        "price" : 240
+                },
+                {
+                        "name" : "Kandy(7.15 pm)",
+                        "price" : 280
+                }
+        ]
+})
+db.trains.insert({
+        "name" : "Red Hawk Bullet Train",
+        "day" : "Weekday",
+        "imgUrl" : "https://i.ibb.co/WxZ0jxz/train2.jpg",
+        "departure" : {
+                "name" : "Gampaha",
+                "time" : "7.00 am"
+        },
+        "arrival" : {
+                "name" : "Colombo-Fort",
+                "time" : "7.30 am"
+        },
+        "destination" : [
+                {
+                        "name" : "Gampaha(7.00 am)",
+                        "price" : 0
+                },
+                {
+                        "name" : "Raagama(7.08 am)",
+                        "price" : 120
+                },
+                {
+                        "name" : "Kelaniya(7.15 am)",
+                        "price" : 140
+                },
+                {
+                        "name" : "Dematagoda (7.20 am)",
+                        "price" : 180
+                },
+                {
+                        "name" : "Maradana(7.25 am)",
+                        "price" : 220
+                },
+                {
+                        "name" : "Colombo-Fort(7.30 am)",
+                        "price" : 260
+                }
+        ]
+})
+db.trains.insert({
+        "name" : "Black Beast Express Train",
+        "day" : "WeekEnd",
+        "imgUrl" : "https://i.ibb.co/16PxqCF/train3.jpg",
+        "departure" : {
+                "name" : "Colombo-Fort",
+                "time" : "6.30 am"
+        },
+        "arrival" : {
+                "name" : "Anuradhapura",
+                "time" : "11.00 am"
+        },
+        "destination" : [
+                {
+                        "name" : "Colombo-Fort(6.30 am)",
+                        "price" : 0
+                },
+                {
+                        "name" : "Maradana(6.35 am)",
+                        "price" : 20
+                },
+                {
+                        "name" : "Dematagoda(6.40 am)",
+                        "price" : 40
+                },
+                {
+                        "name" : "Raagama(6.50 am)",
+                        "price" : 60
+                },
+                {
+                        "name" : "Gampaha(7.00 am)",
+                        "price" : 100
+                },
+                {
+                        "name" : "Polgahawela(7.40 am)",
+                        "price" : 120
+                },
+                {
+                        "name" : "Kurunegala(8.00 am)",
+                        "price" : 140
+                },
+                {
+                        "name" : "Ganewatte(8.45 am)",
+                        "price" : 180
+                },
+                {
+                        "name" : "Thibiriyagedara(9.20 am)",
+                        "price" : 200
+                },
+                {
+                        "name" : "Galgamuwa(9.50 am)",
+                        "price" : 220
+                },
+                {
+                        "name" : "Talawa(10.20 am)",
+                        "price" : 240
+                },
+                {
+                        "name" : "Anuradhapura New Town(10.45 am)",
+                        "price" : 260
+                },
+                {
+                        "name" : "Anuradhapura(11.00 am)",
+                        "price" : 280
+                }
+        ]
+})
+db.trains.insert({
+        "name" : "Blue Queen Bullet Train",
+        "day" : "Daily",
+        "imgUrl" : "https://i.ibb.co/Lt29D1p/train4.jpg",
+        "departure" : {
+                "name" : "Batticalo",
+                "time" : "5.30 am"
+        },
+        "arrival" : {
+                "name" : "Colombo-Fort",
+                "time" : "7.45 am"
+        },
+        "destination" : [
+                {
+                        "name" : "Batticalo(5.30 am)",
+                        "price" : 0
+                },
+                {
+                        "name" : "Karadiyanaru(5.35 am)",
+                        "price" : 30
+                },
+                {
+                        "name" : "Maha Oya(5.45 am)",
+                        "price" : 60
+                },
+                {
+                        "name" : "Padiyathalawa(5.55 am)",
+                        "price" : 90
+                },
+                {
+                        "name" : "Mahiyanganaya(6.10 am)",
+                        "price" : 120
+                },
+                {
+                        "name" : "Kandy(6.35 am)",
+                        "price" : 160
+                },
+                {
+                        "name" : "Kadugannawa(6.45 am)",
+                        "price" : 200
+                },
+                {
+                        "name" : "Mirigama(7.05 am)",
+                        "price" : 240
+                },
+                {
+                        "name" : "Raagama(7.20 am)",
+                        "price" : 270
+                },
+                {
+                        "name" : "Dematagoda(7.35 am)",
+                        "price" : 320
+                },
+                {
+                        "name" : "Maradana(7.40 am)",
+                        "price" : 340
+                },
+                {
+                        "name" : "Colombo-Fort(7.45 am)",
+                        "price" : 350
+                }
+        ]
+})
+db.trains.insert({
+        "name" : "Southern King Bullet Train",
+        "day" : "Daily",
+        "imgUrl" : "https://i.ibb.co/j8M2KTr/train5.jpg",
+        "departure" : {
+                "name" : "Hambantota",
+                "time" : "6.00 am"
+        },
+        "arrival" : {
+                "name" : "Colombo-Fort",
+                "time" : "8.30 am"
+        },
+        "destination" : [
+                {
+                        "name" : "Hambantota(6.00 am)",
+                        "price" : 0
+                },
+                {
+                        "name" : "Tangalle(6.10 am)",
+                        "price" : 30
+                },
+                {
+                        "name" : "Matara(6.25 am)",
+                        "price" : 60
+                },
+                {
+                        "name" : "Galle(6.35 am)",
+                        "price" : 90
+                },
+                {
+                        "name" : "Hikkaduwa(6.55 am)",
+                        "price" : 120
+                },
+                {
+                        "name" : "Ambalangoda(7.10 am)",
+                        "price" : 160
+                },
+                {
+                        "name" : "Bentota(7.20 am)",
+                        "price" : 200
+                },
+                {
+                        "name" : "Beruwela(7.28 am)",
+                        "price" : 220
+                },
+                {
+                        "name" : "Kalutara(7.40 am)",
+                        "price" : 260
+                },
+                {
+                        "name" : "Wadduwa(7.50 am)",
+                        "price" : 280
+                },
+                {
+                        "name" : "Panadura(8.00 am)",
+                        "price" : 300
+                },
+                {
+                        "name" : "Moratuwa(8.05 am)",
+                        "price" : 320
+                },
+                {
+                        "name" : "Mount Lavinia(8.15 am)",
+                        "price" : 350
+                },
+                {
+                        "name" : "Bambalaptiya(8.20 am)",
+                        "price" : 370
+                },
+                {
+                        "name" : "Kollupitiya(8.24 am)",
+                        "price" : 390
+                },
+                {
+                        "name" : "Colombo-Fort(8.30 am)",
+                        "price" : 420
+                }
+        ]
+})
+db.trains.insert({
+        "name" : "Up Hill Express Train",
+        "day" : "WeekEnd",
+        "imgUrl" : "https://i.ibb.co/VYSHNFS/train6.jpg",
+        "departure" : {
+                "name" : "Colombo-Fort",
+                "time" : "6.30 am"
+        },
+        "arrival" : {
+                "name" : "Badulla",
+                "time" : "1.45 am"
+        },
+        "destination" : [
+                {
+                        "name" : "Colombo-Fort(6.30 am)",
+                        "price" : 0
+                },
+                {
+                        "name" : "Maradana(6.35 am)",
+                        "price" : 20
+                },
+                {
+                        "name" : "Dematagoda(6.40 am)",
+                        "price" : 40
+                },
+                {
+                        "name" : "Raagama(6.55 am)",
+                        "price" : 60
+                },
+                {
+                        "name" : "Gampaha(7.05 am)",
+                        "price" : 80
+                },
+                {
+                        "name" : "Mirigama(7.20 am)",
+                        "price" : 100
+                },
+                {
+                        "name" : "Polgahawela(7.40 am)",
+                        "price" : 140
+                },
+                {
+                        "name" : "Rambukkana(8.05 am)",
+                        "price" : 160
+                },
+                {
+                        "name" : "Kadugannawa(8.35 am)",
+                        "price" : 200
+                },
+                {
+                        "name" : "Peradeniya(8.55 am)",
+                        "price" : 240
+                },
+                {
+                        "name" : "Kandy(9.15 am)",
+                        "price" : 280
+                },
+                {
+                        "name" : "Nawalapitiya(10.05 am)",
+                        "price" : 320
+                },
+                {
+                        "name" : "Hatton(10.50 am)",
+                        "price" : 340
+                },
+                {
+                        "name" : "Ambewela(11.55 am)",
+                        "price" : 360
+                },
+                {
+                        "name" : "Pattipola(12.00 pm)",
+                        "price" : 380
+                },
+                {
+                        "name" : "Diyathalawa(12.30 pm)",
+                        "price" : 400
+                },
+                {
+                        "name" : "Ella(1.15 pm)",
+                        "price" : 430
+                },
+                {
+                        "name" : "Badulla(1.45 pm)",
+                        "price" : 450
+                }
+        ]
+})
+db.trains.insert({
+        "name" : "Northern Arrow Bullet Train",
+        "day" : "Daily",
+        "imgUrl" : "https://i.ibb.co/VpG0v0f/train7.jpg",
+        "departure" : {
+                "name" : "Jaffna",
+                "time" : "5.30 am"
+        },
+        "arrival" : {
+                "name" : "Colombo-Fort",
+                "time" : "8.30 am"
+        },
+        "destination" : [
+                {
+                        "name" : "Jaffna(5.30 am)",
+                        "price" : 0
+                },
+                {
+                        "name" : "Chavakachchri(5.35 am)",
+                        "price" : 60
+                },
+                {
+                        "name" : "Elephant Pass(5.45 am)",
+                        "price" : 80
+                },
+                {
+                        "name" : "Killinochchi(5.55 am)",
+                        "price" : 100
+                },
+                {
+                        "name" : "Vavunia(6.25 am)",
+                        "price" : 130
+                },
+                {
+                        "name" : "Anuradhapura(6.40 am)",
+                        "price" : 160
+                },
+                {
+                        "name" : "Galgamuwa(6.55 am)",
+                        "price" : 190
+                },
+                {
+                        "name" : "Ganewatte(7.02 am)",
+                        "price" : 210
+                },
+                {
+                        "name" : "Kurunegala(7.30 am)",
+                        "price" : 240
+                },
+                {
+                        "name" : "Polgahawela(7.40 am)",
+                        "price" : 260
+                },
+                {
+                        "name" : "Gampaha(8.00 am)",
+                        "price" : 300
+                },
+                {
+                        "name" : "Raagama(8.08 am)",
+                        "price" : 320
+                },
+                {
+                        "name" : "Kelaniya(8.15 am)",
+                        "price" : 340
+                },
+                {
+                        "name" : "Dematagoda (8.20 am)",
+                        "price" : 360
+                },
+                {
+                        "name" : "Maradana(8.25 am)",
+                        "price" : 380
+                },
+                {
+                        "name" : "Colombo-Fort(8.30 am)",
+                        "price" : 400
+                }
+        ]
+})
+
+
+

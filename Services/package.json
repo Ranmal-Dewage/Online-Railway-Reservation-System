@@ -1,0 +1,19 @@
+{
+  "name": "services",
+  "version": "1.0.0",
+  "description": "back-end services for web application",
+  "main": "",
+  "scripts": {
+    "start-server": "node ./service.js"
+  },
+  "author": "Ranmal Dewage",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.4",
+    "nodemailer": "^6.1.1",
+    "twilio": "^3.30.3"
+  }
+}

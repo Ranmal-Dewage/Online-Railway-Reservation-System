@@ -1,0 +1,7 @@
+{
+    "email":"your created email address", 
+    "emailPassword": "your created email password",
+    "phoneNumber": "phone number obtain from twilio",
+    "accountSid": "account sid obtain from twilio",
+    "authToken": "auth token obtain from twilio"
+}

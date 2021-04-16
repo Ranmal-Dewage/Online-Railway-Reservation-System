@@ -1,0 +1,82 @@
+﻿---Front-End---
+
+-Open command prompt and go inside to the Client folder in my case "C:\Users\Ranmal\Desktop\IT16169036\Client"
+then execute the following command;
+C:\Users\Ranmal\Desktop\IT16169036\Client>npm install
+
+-After that execute the following command to run the "National Rail" web application;
+C:\Users\Ranmal\Desktop\IT16169036\Client>npm run dev
+
+-Then this output will be diplayed;
+> client@1.0.0 dev C:\Users\Ranmal\Desktop\IT16169036\Client
+> parcel ./index.html
+
+Server running at http://localhost:1234
+√  Built in 34.98s.
+
+
+-After that paste the above url "http://localhost:1234" in web browser to display web application.(some times the port number will be different in your machines)
+
+
+---Back-End---
+
+-Open command prompt and go inside to the Services folder in my case "C:\Users\Ranmal\Desktop\IT16169036\Services
+then execute the following command;
+C:\Users\Ranmal\Desktop\IT16169036\Services>npm install
+
+-After that execute the following command to run the Web Server;
+C:\Users\Ranmal\Desktop\IT16169036\Services>npm run start-server
+
+-Then this output will be diplayed
+> services@1.0.0 start-server C:\Users\Ranmal\Desktop\IT16169036\Services
+> node ./service.js
+
+Connected to MongoDB
+Server Started at http://localhost:3000/
+
+**That means your web server is up and running**
+
+
+---Database Setup----
+
+-Open command prompt and go inside to the "MongoDB\Server\4.0\bin" folder where MongoDB is installed in my case "C:\Program Files\MongoDB\Server\4.0\bin"
+then execute the following command;
+C:\Program Files\MongoDB\Server\4.0\bin>mongo
+
+-After that you will enter to the MongoDB Shell, create database called "RailwayReservation" using following command in MongoDB Shell;
+>use RailwayReservation
+
+-After that go inside to the "IT16169036\MongoDB Scripts" folder and copy all the MongoDB commands in "Government Officers DB" and paste in MongoDB Shell and execute.
+
+-After that go inside to the "IT16169036\MongoDB Scripts" folder and copy all the MongoDB commands in "Trains DB" and paste in MongoDB Shell and execute.
+
+
+**Now you can interact with "National Rail" web application**
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+** BELOW SETUP IS NOT NEEDED **
+** Use only if you have an idea about Enterprise Servive Bus or any Enterprise Integrators **
+
+
+---WSO2 EI(ESB)---
+
+-If you are deploying WSO2 EI
+
+	-Go inside "IT16169036\WSO2 Enterprise Integration Eclipse Project\NationalRail\NationalRailComposite\target" folder.
+	-Copy the "NationalRailComposite_1.0.0.car" file to the WSO2 server.
+	-The folder to copy the above car file in the server in my case looks like "6.4.0\repository\deployment\server\carbonapps"
+
+
+	-If you are using Eclipse Developer Studio open the below mentioned folder inside "IT16169036\WSO2 Enterprise Integration Eclipse Project" ;
+		 "NationalRail" -> maven multi module project
+		
+	-Then add WSO2 Remote Server to the Eclipse Developer Studio and verify the ip obtain by running "integrator.bat" file and verify login credentials.
+	
+	-Then add "NationalRailComposite" car file to the server and click finish.
+	
+	-Finally double click on added WSO2 Remote Server to start the server then "NationalRailComposite" car file deployed to the WSO2 Server.
+
