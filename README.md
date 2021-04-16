@@ -80,7 +80,7 @@ Figure 9: reservation details received to mobile phone
 
 #### i) Create a new Google Acoount
 
-Create a new Google Account and take the email address and its password and paste it inside **config.json** file, in path **"..../Online-Railway-Reservation-System/Services/routes/config.json"**. Also turn off the Less Secure App Access Option under Security option of the created google account.
+Create a new Google Account and take the email address and its password and paste it inside **config.json** file, in path **"..../Online-Railway-Reservation-System/Services/routes/config.json"**. Also turn on the **Less Secure App Access** option under Security section of the created google account.
 
 #### ii) Create Twilio Account
 
