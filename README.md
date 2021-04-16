@@ -90,7 +90,7 @@ Create a new Twilio Account using above email address and take the Phone Number,
 
 After that follows the instructions mentioned in the **How To deploy.txt** file. 
 
-<br />
+<br>
 #### Developed by RANMAL DEWAGE;
 
 ## Copyright
